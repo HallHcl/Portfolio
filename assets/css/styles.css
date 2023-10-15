@@ -23,7 +23,7 @@
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
 }
-@media screen and (min-width: 768px) {
+@media  (min-width: 768px) {
   :root {
     --big-font-size: 10.5rem;
     --h2-font-size: 2rem;
@@ -322,6 +322,12 @@ img {
 .portfolio__img {
   position: relative;
   overflow: hidden;
+  color: #040505;
+}
+
+.portfolio__img a {
+    color: #6f42d6;
+    font-size: 4rem;
 }
 
 .portfolio__img img {
@@ -435,13 +441,13 @@ img {
 
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media  (max-width: 320px) {
   .home__img {
     width: 230px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media  (min-width: 768px) {
   body {
     margin: 0;
   }
@@ -526,7 +532,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media  (min-width: 1024px) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
@@ -534,7 +540,7 @@ img {
 }
 
 /* Media queries for small devices (Mobile) */
-@media screen and (max-width: 768px) {
+@media  (max-width: 768px) {
   :root {
     --big-font-size: 3rem; /* Reduce the font size for headings */
   }
