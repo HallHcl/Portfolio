@@ -96,7 +96,7 @@ img {
   padding: 3rem 0;
 }
 
-.section-title {
+.section-title  {
   position: relative;
   font-size: var(--h2-font-size);
   color: var(--dark-color);
@@ -358,6 +358,57 @@ img {
 .portfolio__link-name {
   color: var(--dark-color);
 }
+
+/* ===== Experience =====*/
+.experience {
+  padding: 40px 0;
+  background-color: #D2E0FB;
+  height: 100vh;
+}
+
+.experience__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px; /* กำหนดระยะห่างข้างบน */
+}
+
+.experience-img {
+  position: relative;
+  width: 33rem;
+  height: 33rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience__img img {
+  margin-top: 200px;
+  border: 2px 
+}
+
+.experience__subtitle {
+  color: #158106;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 4rem; /* จัดกึ่งกลางตรงกลาง */
+}
+
+.experience__profession {
+  font-size: 2rem;
+  color: #fc6500;
+  font-weight: bold;
+  text-align: justify; /* จัดกึ่งกลางตรงกลาง */
+}
+
+.experience__text {
+  font-size: 16px;
+  color: #777;
+  margin-top: 10px;
+  text-align: left; /* จัดกึ่งกลางตรงกลาง */
+}
+
 
 /* ===== CONTACT =====*/
 .contact__container {
