@@ -184,7 +184,7 @@ img {
 /*===== HOME =====*/
 .home {
   position: relative;
-  background-color: #425f57;
+  background-color: #3E54AC;
   overflow: hidden;
   height: 100vh;
 }
@@ -227,7 +227,7 @@ img {
 
 /* ===== ABOUT =====*/
 .about.section {
-  background-color: #f1f7b5;
+  background-color: #ECF2FF;
 }
 
 .about__container {
@@ -253,18 +253,18 @@ img {
 
 .about__subtitle {
   font-size: var(--h2-font-size);
-  color: var(--dark-color);
+  color: #000000;
   margin-bottom: var(--mb-1);
 }
 
 .about__text {
   margin-bottom: var(--mb-4);
-  color: #000000;
+  color: #a5a4a4;
 }
 
 .about__profession {
   display: block;
-  color: #000000;
+  color: #afa9a9;
   margin-bottom: var(--mb-4);
 }
 
@@ -279,7 +279,7 @@ img {
 
 /* ===== SKILLS =====*/
 .skills.section {
-  background-color: #a8d1d1;
+  background-color: #655DBB;
 }
 
 .skills__container {
@@ -310,7 +310,7 @@ img {
 
 /* ===== PORTFOLIO =====*/
 .portfolio {
-  background-color: #fdebed;
+  background-color: #BFACE2;
 }
 
 .portfolio__container {
