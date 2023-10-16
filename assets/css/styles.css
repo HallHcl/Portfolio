@@ -323,6 +323,15 @@ img {
   position: relative;
   overflow: hidden;
   color: #040505;
+  margin-bottom: 10px;
+  padding-top: -200px;
+}
+
+.portfolio__text {
+  position: relative;
+  overflow: hidden;
+  color: #040505;
+  margin: 2px;
 }
 
 .portfolio__img a {
@@ -350,6 +359,7 @@ img {
   backdrop-filter: blur(10px);
   transition: 0.3s;
 }
+
 
 .portfolio__img:hover .portfolio__link {
   bottom: 0;
@@ -707,6 +717,8 @@ img {
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
   }
+
+  
 
   .contact__container {
     grid-template-columns: repeat(1, 1fr);
